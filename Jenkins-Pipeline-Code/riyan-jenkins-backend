@@ -5,7 +5,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'riyanuddin/backend:latest'
+        DOCKER_IMAGE = 'mustafa/backend:latest'
         NAMESPACE    = 'three-tier'
     }
 
