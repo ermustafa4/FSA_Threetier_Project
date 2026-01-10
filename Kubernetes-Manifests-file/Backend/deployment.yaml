@@ -27,7 +27,7 @@ spec:
       - name: api
         # image: 407622020962.dkr.ecr.us-east-1.amazonaws.com/backend:latest
         # imagePullPolicy: Always
-        image: mustafa/backend:latest
+        image: ermustafa/backend:latest
         imagePullPolicy: IfNotPresent        
         env:
           - name: MONGO_CONN_STR
