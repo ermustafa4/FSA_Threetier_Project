@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage('Build Frontend') {
+        stage('Build backend') {
             steps {
                 dir('Application-Code/backend') {
                     sh 'npm install'
