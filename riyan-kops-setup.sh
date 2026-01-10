@@ -24,9 +24,9 @@ kops version
 
 # 4) Create S3 bucket (for kOps state store)
 echo ">>> Creating S3 bucket: riyansbucketkops..."
-aws s3 mb s3://riyansbucketkops
+aws s3 mb s3://mustafabucketkops
 aws s3 ls
-export KOPS_STATE_STORE=s3://riyansbucketkops
+export KOPS_STATE_STORE=s3://mustafabucketkops
 
 # 5) kubectl
 echo ">>> Installing kubectl v1.29.2..."
