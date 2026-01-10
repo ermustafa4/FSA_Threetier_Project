@@ -6,7 +6,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'SonarScanner'
-        DOCKER_IMAGE = 'mustafa/frontend:latest'
+        DOCKER_IMAGE = 'ermustafa/frontend:latest'
         NAMESPACE    = 'three-tier'
     }
 
